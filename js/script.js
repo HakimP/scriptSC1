@@ -67,3 +67,12 @@ function serieFibonachi() {
         console.log(var3);
     }
 }
+
+function sumarIva(cantidad) {
+	if(!isNaN(cantidad)){
+		var resultado2 = cantidad * 1.16;
+		return resultado2;
+	} else {
+		return "No es un Número";
+	}
+}
